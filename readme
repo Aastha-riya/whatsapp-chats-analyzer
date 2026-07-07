@@ -1,0 +1,147 @@
+# 💬 WhatsApp Chat Analyzer
+
+A Python-based interactive web application that analyzes exported WhatsApp chats and generates meaningful insights through statistics and visualizations. Built using Streamlit, Pandas, Matplotlib, and Seaborn.
+
+---
+
+## Features
+
+### Chat Statistics
+- Total Messages
+- Total Words
+- Media Shared
+- Links Shared
+
+### Timeline Analysis
+- Monthly activity timeline
+- Daily activity timeline
+
+### User Analysis
+- Individual user statistics
+- Group statistics
+- Most active users
+
+### Activity Analysis
+- Weekly activity distribution
+- Monthly activity distribution
+- Hourly activity heatmap
+
+### Text Analysis
+- Word Cloud
+- Most Common Words
+- Emoji Usage Analysis
+
+---
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Seaborn
+- WordCloud
+- URLExtract
+- Emoji
+- Regular Expressions (Regex)
+
+---
+
+## Project Structure
+
+```
+.
+├── app.py
+├── helper.py
+├── preprocessor.py
+├── stop_hinglish.txt
+├── requirements.txt
+├── setup.sh
+└── procfile
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
+```
+
+Move into the project
+
+```bash
+cd whatsapp-chat-analyzer
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## How to Use
+
+1. Export a WhatsApp chat **without media**.
+2. Open the application.
+3. Upload the exported `.txt` file.
+4. Select a user or analyze the entire conversation.
+5. Explore visual insights and chat statistics.
+
+---
+
+## Visual Insights Generated
+
+- Monthly Timeline
+- Daily Timeline
+- Weekly Activity Heatmap
+- Most Active Users
+- Word Cloud
+- Common Words
+- Emoji Distribution
+- Link Statistics
+- Media Statistics
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+- Data Cleaning
+- Text Processing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Streamlit Application Development
+- Python Programming
+- Regular Expressions
+- User Interaction Design
+
+---
+
+## Future Improvements
+
+- AI-powered chat summarization
+- Sentiment analysis
+- Toxicity detection
+- Conversation topic modeling
+- Export reports as PDF
+- Interactive Plotly dashboards
+- Multi-language support
+- Chat comparison between users
+
+---
+
+## Author
+
+Aastha Gupta
